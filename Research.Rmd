@@ -1,0 +1,19 @@
+---
+title: "Research"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+As a canine scholar, my research focuses on the intricate dynamics of tail wagging as a form of communication and its interactions with acquiring dental sticks from owners.  Through rigorous investigation and analysis, I seek to unravel the mysteries behind the various nuances of tail wagging to improve the likelihood of additional dental stick deployments.
+
+## Publications
+1. Nearing, F. (2023). Tail Wagging Dynamics: A Correlational Study with Dental Stick Acquisition. The Bark Journal of Canine Science, 6(21), 81-92.
+2. Nearing, F. (2022). Tail Wagging Frequency and Dental Stick Preference in Dogs: A Comparative Analysis. Paws and Claws Behavioral Research Quarterly, 1(5), 6-57.
+3. Nearing, F. (2021). The Role of Tail Wagging in Dental Stick Retrieval Behavior: Insights from Canine Ethology. Woof Woof Behavioral Ecology Review, 7(21), 1-7.
+
+These publications represent my contributions to the burgeoning field of canine science, where he explores the intersection of tail wagging behavior and dental stick acquisition, providing valuable insights for both canine researchers and pet owners alike.
+
+![](assets/photos/dental_stick.webp)

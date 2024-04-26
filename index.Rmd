@@ -1,0 +1,123 @@
+---
+title: ''
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{css, echo=FALSE}
+/*Code to set up the different parts of the webpage*/
+
+/* Controls the maximum width of the main body of the webpage */
+body .main-container {
+max-width: 1200px;
+}
+
+/* Controls the color and size of the icons at the bottom of the page */
+.fa{
+    color: black;
+    font-size: 200px;
+}
+
+/* controls the margin between different paragraphs */
+p {
+  margin-top: 20px;
+  #line-height: 100%
+}
+
+/* controls the aligment of the different headers */
+h1, h2, h3 {
+   text-align: center;
+}
+```
+
+<!---
+Creates the first paragraph that is split into three seperate columns (one that is 40% and contains a picture)
+-->
+<p>
+:::: {.columns}
+::: {.column width="40%"}
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 200%;"
+    src="assets/photos/Main_photo.png" 
+    alt="Jacob and his dog Finnigan">
+</img>
+
+
+:::
+::: {.column width="5%"}
+<!---
+Another column that is 5% wide and is blank to create spacing
+-->
+:::
+::: {.column width="55%"}
+<!---
+Final column that contains the main text for the webpage
+-->
+
+<font size="20"> About </font>
+
+<font size="5"> I am Finnigan a dog that has no job but wants to work in the [Department of Biostatistics at Harvard University](https://www.hsph.harvard.edu/biostatistics/) under the supervision of [Dr. Curtis Huttenhower](https://huttenhower.sph.harvard.edu/home).
+
+My research is currently focused on how to get my owners to give me as many dental sticks as possible. I also enjoy long walks in the woods and playing at the dog park. I have a sister named Mango who can be mean to me at times but I still love her very much  </font>
+
+:::
+::::
+
+</p>
+<!---
+End of the main body of text and start of the webpage footer
+-->
+
+
+<hr />
+
+<!---
+Header of the footnote
+-->
+<h1>
+  Follow me to see my latest works
+
+<!---
+Grab icons from https://fontawesome.com/
+(Usage under MIT license)
+-->
+
+<!-- Add icon library -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/>
+
+<!-- Add font awesome icons -->
+
+<!---
+Add Icons of your choice... look at https://fontawesome.com/ for options that you might want to use
+
+Currently they all link google.com so replace google.com with whatever you want to link to
+-->
+<p style="text-align: center;">
+    <a href="google.com" class="fa fa-twitter" style="font-size:50px;"></a>
+    <a href="google.com" class="fa fa-github" style="font-size:50px;"></a>
+    <a href="google.com" class="fa fa-graduation-cap"
+style="font-size:50px;"></a>
+<!---
+Add in photo of your email here... photos are preferable so they don't get web scrapped and you end up with a ton of spam...
+-->  
+    <img 
+        style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%;"
+    src="assets/photos/Email.png" 
+    alt="Photo of email">
+<font size="2">  This webpage was made with the help from Jacob T. Nearing's template at: X</font>
+</p>
+</h1>
+
+

@@ -1,0 +1,15 @@
+---
+title: "My CV"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<p class="lead">
+ <small> <a href="assets/CV/Finn_CV.pdf">Click here</a> to
+  view my CV as an isolated PDF.</small>
+</p>
+<object data="assets/CV/Finn_CV.pdf" type="application/pdf" width="100%" height="800px"> 
+  <p>It appears you don't have a PDF plugin for this browser. Click above to view my CV.</p>  
+</object>
